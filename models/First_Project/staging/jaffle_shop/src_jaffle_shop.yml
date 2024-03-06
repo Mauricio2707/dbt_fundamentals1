@@ -1,6 +1,8 @@
+version: 2
+
 sources:
   - name: jaffle_shop
-    database: raw
+    database: dbt-fundamentals-412918
     schema: jaffle_shop
     tables:
       - name: customers
